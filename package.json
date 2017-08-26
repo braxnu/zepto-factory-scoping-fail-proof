@@ -1,0 +1,18 @@
+{
+  "name": "zepto-factory-scoping-fail",
+  "version": "1.0.0",
+  "description": "Snippet to prove zepto failure after bundling with webpack",
+  "main": "entry.js",
+  "dependencies": {
+    "opn-cli": "^3.1.0",
+    "webpack": "^3.5.5",
+    "zepto": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run build",
+    "build": "webpack entry.js bundle.js && opn index.html"
+  },
+  "author": "Karol Baczewski <braxnu@gmail.com>",
+  "license": "unlicensed"
+}
